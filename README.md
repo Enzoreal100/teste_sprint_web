@@ -23,8 +23,8 @@ npm install --save-dev gh-pages
 
 3. Configure o package.json:
 
-Abra o arquivo package.json do seu projeto e adicione as seguintes propriedades:
-"homepage": "https://seu-usuario.github.io/meu-projeto",
+Abra o arquivo package.json do seu projeto e adicione as seguintes propriedades
+"homepage": "https://seu-usuario.github.io/nome-projeto",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
